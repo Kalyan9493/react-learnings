@@ -3,12 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import EventBind from './components/EventBind'
+import EventBind from './components/EventBind';
+import Greet from './components/Greet'
+import Parent from './components/Parent'
+import COnditional from './components/Conditional'
+import Conditional from './components/Conditional';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Conditional />
+    {/* <Parent /> */}
     {/* <App /> */}
-    <EventBind />
+    {/* <EventBind /> */}
+    {/* <Greet name="kalyan" age="20"></Greet>
+    <Greet name="kalyan reddy" age="23"></Greet> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
